@@ -2,7 +2,7 @@
   "name": "webpack-template-project",
   "version": "1.0.0",
   "description": "Version Inicial de proyecto configurado con webpack",
-  "main": "index.js",
+  "main": "./js/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "dev": "webpack --mode development",

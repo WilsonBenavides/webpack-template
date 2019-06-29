@@ -5,8 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin'),
 
 module.exports = {
   entry: {
-    js: './src/index.js',
-    vanilla: './src/hello_vanilla.js'
+    js: './src/js/index.js'    
   },
   output: {
     filename: '[name].[chunkhash].js'
@@ -72,12 +71,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/template.html',
       filename: 'index.html',
+      favicon: 'favicon.ico',
       chunks: ['js']
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/template.html',
-      filename: 'vanilla.html',
-      chunks: ['vanilla']
     })
   ]
 }

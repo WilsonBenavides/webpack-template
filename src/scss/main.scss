@@ -11,23 +11,6 @@
     url(./fonts/Chalet.svg#Chalet) format('svg');
 }
 
-html {
-  color: #FFF;
-  background: {
-    color: #2B3A42;
-    repeat: repeat;
-    image: url('./img/webpack-cube.svg');
-    position: center;
-    attachment: fixed;
-    size: 10%;
-  }
-}
-
-#app {
-  margin: auto;
-  padding: 2rem;
-  width: 80%;
-  min-height: 100vh;
-  text-align: center;
-  background-color: rgba($color: #2b3a42, $alpha: .9);
+#canvas {
+  background-color: rgba($color: #dff9fb, $alpha: .5);
 }
